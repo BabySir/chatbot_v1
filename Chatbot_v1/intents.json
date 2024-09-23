@@ -1,0 +1,36 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello"],
+        "responses": ["Hello!", "Hi there!", "Greetings!","konnichiwa","khamm khadi", "vannekam","namaskaram"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["Goodbye!", "See you later!", "Have a nice day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure!"]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, I can't understand you.", "Please give me more info."]
+      },{
+        "tag": "query_for_data",
+        "patterns": ["Find","fetch","show","get"],
+        "responses": ["Fetching data"]
+      },{
+        "tag": "query_for_analysis",
+        "patterns": ["sum","total","average","greater than","less than","more than"],
+        "responses": ["Data analysing"]
+      },{
+        "tag": "query_for_prediction",
+        "patterns": ["Predict", "When", "By when"],
+        "responses": ["Predicting order"]
+      }
+    ]
+  }
